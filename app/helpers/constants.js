@@ -1,0 +1,36 @@
+module.exports = {
+    // SYSTEM CODES CONSTANTS
+    PRO_CODE: "PR",
+    STAFF_CODE: "ST",
+    WORKORDER_CODE: "WO",
+    VENDOR_CODE: "VD",
+    ESTIMATE_CODE: "ES",
+    PAYMENT_CODE: "PMT",
+    REFUND_CODE: "RFT",
+    REFUNDS_CODE: "RFN",
+    NONINVENTORY_CODE:"NON",
+    PRICEBOOK_CODE: "PB",
+    INVENTORY_CODE: "IN",
+    LOCATION_CODE: "LO",
+    CUSTOMER_CODE: "CU",
+    LEAD_CODE: "LD",
+    PROMOTION_CODE: "PM",
+    EQUIPMENT_CODE: "EQ",
+    PURCHASE_ORDERS_CODE: "PO",
+    BOOk_CODE:"BP",
+    JOB_CODE: "JB",
+    SCORE_CODE: "SC",
+    SEQUENCE_CODE: 'sequence',
+    TRUCK_ORDER:'TSL',
+    PRE_CODE: 'PRW',
+    POST_CODE: 'POW',
+    CSR_CODE: 'CSR',
+    REPORT_PRO:"RAP",
+    DIRECT_BOOKING_LEAD_CODE: "DBL",
+    GET_QUOTE_LEAD_CODE: "GQL",
+    SMS_CODE: "SM", // for TEST SMS
+    // SYSTEM CODES CONSTANTS
+    //DATE FORMATS
+    CURRENT_DATE: `${new Date().getFullYear()}${new Date().getMonth() + 1}${new Date().getDate()}`
+    //DATE FORMATS
+}
